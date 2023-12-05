@@ -43,7 +43,7 @@ func UAPIOpen(name string) (*os.File, error) {
 		return nil, err
 	}
 
-	oldUmask := unix.Umask(0o077)
+	oldUmask := unix.Umask(0o007)
 	defer unix.Umask(oldUmask)
 
 	listener, err := net.ListenUnix("unix", addr)
