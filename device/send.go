@@ -15,8 +15,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/amnezia-vpn/amnezia-wg/conn"
-	"github.com/amnezia-vpn/amnezia-wg/tun"
+	"github.com/realglebivanov/amnezia-wg/conn"
+	"github.com/realglebivanov/amnezia-wg/tun"
 	"golang.org/x/crypto/chacha20poly1305"
 	"golang.org/x/net/ipv4"
 	"golang.org/x/net/ipv6"

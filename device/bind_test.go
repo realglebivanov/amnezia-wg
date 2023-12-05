@@ -8,7 +8,7 @@ package device
 import (
 	"errors"
 
-	"github.com/amnezia-vpn/amnezia-wg/conn"
+	"github.com/realglebivanov/amnezia-wg/conn"
 )
 
 type DummyDatagram struct {

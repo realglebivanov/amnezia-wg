@@ -17,8 +17,8 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/amnezia-vpn/amnezia-wg/conn"
-	"github.com/amnezia-vpn/amnezia-wg/rwcancel"
+	"github.com/realglebivanov/amnezia-wg/conn"
+	"github.com/realglebivanov/amnezia-wg/rwcancel"
 	"golang.org/x/sys/unix"
 )
 

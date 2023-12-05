@@ -8,7 +8,7 @@ package device
 import (
 	"fmt"
 
-	"github.com/amnezia-vpn/amnezia-wg/tun"
+	"github.com/realglebivanov/amnezia-wg/tun"
 )
 
 const DefaultMTU = 1420

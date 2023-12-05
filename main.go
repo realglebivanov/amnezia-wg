@@ -14,10 +14,10 @@ import (
 	"runtime"
 	"strconv"
 
-	"github.com/amnezia-vpn/amnezia-wg/conn"
-	"github.com/amnezia-vpn/amnezia-wg/device"
-	"github.com/amnezia-vpn/amnezia-wg/ipc"
-	"github.com/amnezia-vpn/amnezia-wg/tun"
+	"github.com/realglebivanov/amnezia-wg/conn"
+	"github.com/realglebivanov/amnezia-wg/device"
+	"github.com/realglebivanov/amnezia-wg/ipc"
+	"github.com/realglebivanov/amnezia-wg/tun"
 	"golang.org/x/sys/unix"
 )
 
